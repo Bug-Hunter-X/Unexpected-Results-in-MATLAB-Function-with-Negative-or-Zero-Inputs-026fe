@@ -1,0 +1,3 @@
+# Unexpected Results in MATLAB Function with Negative or Zero Inputs
+
+This repository demonstrates an uncommon bug in a MATLAB function that arises from unintended integer division with negative or zero inputs. The function `myFunction` calculates a result based on the input `x`. However, when `x` is 0 or negative, the function's behavior deviates from expected numerical operations. This issue is resolved by explicitly converting inputs to floating-point numbers before performing division.
